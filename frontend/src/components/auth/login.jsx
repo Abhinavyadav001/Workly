@@ -4,7 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import { USER_API_END_POINT } from '../utils/constant';
 import { useDispatch, useSelector } from 'react-redux';
-import { setloading, setUser } from '../../redux/authslice'; // ✅ added setUser import
+import { setloading, setUser } from '../../redux/authSlice';
 import { Button } from '../ui/button';
 import { Loader2 } from 'lucide-react';
 

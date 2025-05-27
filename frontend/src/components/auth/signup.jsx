@@ -6,7 +6,7 @@ import axios from 'axios'
 import { USER_API_END_POINT } from '../utils/constant'
 import { useDispatch, useSelector } from 'react-redux'
 import store from '../../redux/store'
-import { setloading } from '../../redux/authslice'
+import { setloading } from '../../redux/authSlice'
 import { Button } from '../ui/button'
 import { Loader2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
@@ -17,7 +17,7 @@ const Signup = () => {
     email: '',
     phoneNumber: '',
     password: '',
-    file: '', // Changed from photo to file
+    file: '',
     role: ''
   })
 
